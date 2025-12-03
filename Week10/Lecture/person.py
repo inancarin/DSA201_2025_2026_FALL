@@ -42,15 +42,15 @@ class UniversityStudent(Student):
 class HighSchoolStudent(Student):
     pass
 
-# main
-p1 = Person("John", 23)
-p2 = Person("Alice", 18)
-print(p1)
-print(p2)
+if __name__ == "__main__":
+    p1 = Person("John", 23)
+    p2 = Person("Alice", 18)
+    print(p1)
+    print(p2)
 
-s1 = Student("Jack", 19, "Stanford University")
-print(s1.getName())
-print(s1)
+    s1 = Student("Jack", 19, "Stanford University")
+    print(s1.getName())
+    print(s1)
 
-d1 = Doctor("Ahmet", 45, "Acibadem Hospital")
-print(d1)
+    d1 = Doctor("Ahmet", 45, "Acibadem Hospital")
+    print(d1)
